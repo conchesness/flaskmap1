@@ -1,12 +1,23 @@
 Create a new python environment
     Go to the Terminal menu
-        Choose "New Terminal" and type
-        conda create -n map python=3
+        Choose "New Terminal" 
+        type "conda create -n map python=3"
             - click Y when asked to and wait for it to finish
         then type --> "conda activate map"
             - You should see "(map)" at the command line now.
+
 Set the environment for this project
     Got to the view menu 
         --> choose command palette 
         --> search for Python: select 
         --> choose the one you just created
+
+Run your new Flask app
+    Select "Main.py" in the file explorer on the left of the screen
+    click the small triangle at the top right of of the Visual Studio Code window
+    It should start running and give you a URL to click at "https://127.0.0.1:5000"
+        The first time you will need to click some links in your browser that say this is dangerous
+        It isn't. 
+
+Install the Flask Library
+    in the terminal type "python -m pip install Flask"
