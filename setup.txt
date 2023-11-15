@@ -12,6 +12,9 @@ Set the environment for this project
         --> search for Python: select 
         --> choose the one you just created
 
+Install the Flask Library
+    in the terminal type "python -m pip install Flask"
+
 Run your new Flask app
     Select "Main.py" in the file explorer on the left of the screen
     click the small triangle at the top right of of the Visual Studio Code window
@@ -19,5 +22,7 @@ Run your new Flask app
         The first time you will need to click some links in your browser that say this is dangerous
         It isn't. 
 
-Install the Flask Library
-    in the terminal type "python -m pip install Flask"
+To add a New Location, just edit the locations.py file.
+    You can get the latitude and longitude values from https://openstreetmaps.org
+    Just cntrl-click or right click with a mouse anywhere on the map 
+    then choose "show address"
