@@ -1,0 +1,12 @@
+Create a new python environment
+    Go to the Terminal menu
+        Choose "New Terminal" and type
+        conda create -n map python=3
+            - click Y when asked to and wait for it to finish
+        then type --> "conda activate map"
+            - You should see "(map)" at the command line now.
+Set the environment for this project
+    Got to the view menu 
+        --> choose command palette 
+        --> search for Python: select 
+        --> choose the one you just created
